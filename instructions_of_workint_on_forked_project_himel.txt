@@ -4,4 +4,5 @@
 4. --> git init // Initialize git
 5. Set the remote origin file --> git remote add origin https://github.com/<username>/<projectname>
 [to change the remote origin url: git remote set-url origin https://github.com/<username>/<projectname>]
-6. 
+6. If any change made to any file or added new file --> git add *
+7. commit --> git commit -m "your message"
