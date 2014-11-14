@@ -1,0 +1,55 @@
+ 
+Git Upload
+..........
+
+1) Create a Ripository in git (github.com)
+
+2) Local Machine (Initialize in Github) 
+    --> git init 
+
+3) Track the file 
+    --> git add <file Nme / * >
+
+4) Introduce the Origine
+    --> git remote add origin https://github.com/<UserName>/<Project Name>
+    
+5) Pull the Project
+    --> git pull origin mastar
+    
+Working on Local Machine
+........................
+
+1) Chack Status
+    --> git status
+    
+2) Adding Files
+    --> git add <file name...,.../ * >
+    
+..............................................
+             Changing File...
+..............................................
+
+3) Commit [Save Point] // Commit is a save point where you can always rollback
+    --> git commit -m <"Your Commit Massege">
+
+Branching
+.........
+
+4) Creating a Branch 
+    --> git branch <Branch Name>
+
+5) Switching Branches
+    --> git checkout <Branch Name>
+    
+6) Merging Branch
+    --> git checkout master 
+    --> git merge <Branch Name>
+    
+7) Deleting Branch
+    --> git branch -d <Branch Name>
+    
+Push All to Origine
+....................
+
+git push 
+    
