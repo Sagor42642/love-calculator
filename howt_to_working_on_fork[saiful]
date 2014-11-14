@@ -1,0 +1,6 @@
+1.fork the project form the link https://github.com/<username>/<projectname>
+2.Make folder on your local machine
+3.Open terminal inside the folder
+4. -->git init //initiallize git
+5.set the remote origin file -->git remote add origin https://github.com/<username>/<projectname>		
+
